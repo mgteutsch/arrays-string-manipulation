@@ -4,9 +4,44 @@
 	<title>Arrays: String Manipulation</title>
 </head>
 <body>
+
 <h1>Arrays Exercise: String Manipulation</h1>
 <hr/>
 
+<div>
+	<h3>Input a word:</h3>
+	<input 	type="text" 
+			name="User Field" 
+			title="Letters Only" 
+			placeholder="Type letters only" 
+			id="userinput"
+			onkeydown="return alphaOnly(event);"/> 
+	<input 	type="submit" 
+			name="Submit Word" 
+			value="Submit" 
+			id="submit"/>
+</div>
+
+<br/>
+<hr/>
+
+<div id="backwardsoutput">
+	<h3>Backwards:</h3>
+</div>
+
+<hr/>
+
+<div id="alphabeticaloutput">
+	<h3>Alphabetical Order:</h3>
+</div>
+
+<hr/>
+
+<div id="palindromeoutput">
+	<h3>Palindrome:</h3>
+</div>
+
+<hr/>
 
 <script type="text/javascript" src="strings.js"></script>
 </body>
